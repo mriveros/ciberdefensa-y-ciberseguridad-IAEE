@@ -2,3 +2,24 @@ Clase Fecha 15/04/2019
 Introduccion a la CIberdefensa.
 Grupo 5.
 Tema: Aplicabilidad de un plan de ciberdefensa en Paraguay.
+
+El Ciberespacio.
+Ciberseguridad.
+Sentido Critico
+Infraestructura critica. Asegurar su funcionamiento y resilencia.
+Sentido Amplio
+Ciberespacio. Acceso igualitario e interacciones confiables.
+
+Sus Datos.
+Son todas aquellas informaciones acerca de usted o su entorno, cualquier informacion sobre usted como, datos medicos, financieros, educacion, trabajo, etc.
+
+Tipos de Datos de una organizacion.
+1. Datos Tradicionales
+2. IoT y Big Data (datos masivos)
+
+TRIADA CID(Confidencialidad, Integridad, Disponibilidad)
+La confidencialidad garantiza la privacidad de los datos.
+La Integridad determina la fiabilidad de la informacion ante alteraciones de datos o modificaciones.
+La disponibilidad trata acerca de que los datos esten distonibles en el momento oportuno.
+
+
