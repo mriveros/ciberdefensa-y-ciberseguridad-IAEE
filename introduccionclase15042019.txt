@@ -22,4 +22,13 @@ La confidencialidad garantiza la privacidad de los datos.
 La Integridad determina la fiabilidad de la informacion ante alteraciones de datos o modificaciones.
 La disponibilidad trata acerca de que los datos esten distonibles en el momento oportuno.
 
+El Ciberespacio. Riesgos.
+Robo de datos, sabotaje, espionaje, propaganda de odios, ciberbulling, evasion superficialidad, estafas.
+
+Impactos de una violacion de seguridad. 
+- reputacion arruinada.
+- vandalismo.
+- robo.
+- perdida de ingresos.
+- propiedad intelectual danada.
 
