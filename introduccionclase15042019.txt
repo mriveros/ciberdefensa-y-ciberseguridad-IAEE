@@ -32,3 +32,39 @@ Impactos de una violacion de seguridad.
 - perdida de ingresos.
 - propiedad intelectual danada.
 
+Impactos al mundo Fisico.
+- Corte de servicios de telefonia y telecomunicaciones.
+- Perdidas en centros de distribucion electrica.
+- Modificacion de rutas aereas.
+
+Ejemplo de Impactos reales.
+- Ciberataque a planta de fundicion de hierro en alemania 2014, Acceso a ICS con credenciales robadas, parada y encendido de hornos.
+- Ciberataque a planta de tratamiento de agua marzo 2016, inyeccion sql mas ingenieria social, se cambio la composicion del agua.
+- Carbanak, ataque a SWIFT mediados 2014, dinero de ATMs y transferencias internacionales, 1 billon de dolares usados.
+
+Amenazas.
+Una amenaza a la seguridad de las TIC puede ser definida como cualquier circunstancia o evento que puede explotar intencionalmente una vulnerabilidad especifica de las TIC.
+
+Agrupacion de las Amanazas
+1. Origen Natural: desastre natural.
+2. Origen Industrial: falla no intencional en fabricacion de un chip, bugs en sistemas y artefactos, errores industriales, derrumbes, cortocircuito..
+3. Errores o fallos no intencionadas: errores hechos sin queres.
+4. Ataques deliberados: ataques con proposito e intenciones de perjudicar.
+
+
+Tipos de Amenazas segun la motivacion
+1- Cibercrimen: son crimenes comunes o delitos comunes.
+2- Ciberespionaje: espionaje por medio de las tecnologias TIC.
+3- Ciberterrorismo: tiene un mayor alcance frente al estado.
+4- Ciberguerra: apoyo operacional y tactico en operaciones fisicas de guerra.
+5- Hacktivismo: llevar a cabo una idea utilizando las TIC ya sea por odio o algun motivo especifico..
+
+Fuentes de Amenazas.
+
+- Estados extranjeros. 4
+- Errores humanos. 3
+- Fenomenos naturales. 1
+- Conflictos. 4
+- Amenazas Internas. 4
+
+
