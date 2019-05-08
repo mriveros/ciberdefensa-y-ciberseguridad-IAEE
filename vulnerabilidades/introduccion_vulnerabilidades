@@ -38,10 +38,33 @@ Se clasifican en:
 - Correctivos.
 
 
+Exploits.
+Son codigos, datos o secuencia de comando para explotar una vulnerabilidad.
+- Shellshock.
+
+Tipos de Vulnerabilidades.
+- V. de bajo Nivel: error de SO, codigos.
+- V. de red: errores en los protocolos de red.
+- V. de alto nivel: errores de aplicaciones, sockets, webs, etc.
+- V. web.
+
+Tecnicas y herramientas de explotacion de vulnerabilidades.
+- metaexploits.
+- exploits.
+- shellcode.
 
 
+Tipos de Analisis.
+Testing de seguridad para SW.
+
+1. Analisis estatico (revision de codigo).
+2. Analisis Dinamico (ejecutando el programa).
+
+Test de Penetracion (Pentesting)
+Enfoques de testing: white-box, gray-box ,black-box.
 
 
+Calculadora de vulnerabilidad.
 
 
-
+APPS: fing, iNetTools
