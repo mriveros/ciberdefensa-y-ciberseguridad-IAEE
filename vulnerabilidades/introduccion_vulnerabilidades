@@ -66,4 +66,12 @@ Enfoques de testing: white-box, gray-box ,black-box.
 Calculadora de vulnerabilidad.
 APPS: fing, iNetTools 
 
+--IMPORTANTES VER PARA HARDENING--
+CIS benchmark: pagina para hacer y comprobar el hardening de distintos sistemas, software, configuraciones.
+NIS Benchmark.
+---------FIN DE HARDENING------------
 
+
+SET DE PRUEBAS DE NMAP.
+Scripts de nmap para vulnerabilidades.
+$ nmap -sV --script DOS 192.168.1.145
