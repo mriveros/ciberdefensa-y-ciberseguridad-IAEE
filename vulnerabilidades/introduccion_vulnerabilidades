@@ -97,4 +97,12 @@ Desarrollo seguro con OWASP.
 - Vectores de ataque: son los que nosotros publicamos, servicios, aplicaciones, objetos, etc.
 - Uso de Nessus.
 
+--------------Fecha 03-06-2019----------------------
+Esquema de Gestion:
+- Planeacion de Analisis
+- Ejecucion de Analisis
+- Priorizacion de Vulnerabilidades
+- Remediacion
+- Validacion, Seguimiento y Monitoreo
+- 
 
