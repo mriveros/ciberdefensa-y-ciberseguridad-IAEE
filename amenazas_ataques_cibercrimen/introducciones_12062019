@@ -50,3 +50,10 @@ Un caso real: ransomware en un hospital.
 *Tecnicas utilizadas:
 - propagacion mediante carpetas compartidas en la red.
 
+Clase 2 19/06/2019
+
+Que es una vulnerabilidad?
+Fallo o debilidad en el diseno, la implementacion, la operacion o la gestion de un sistema que puede ser explotado con el fin de violar la politica de seguridad del sistema.
+Que es un exploit?
+Es un fragmento de codigo, de datos , secuencia de comandos que permite explotar una vulnerabilidad.
+
