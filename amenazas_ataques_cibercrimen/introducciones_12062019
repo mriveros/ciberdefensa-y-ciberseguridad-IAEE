@@ -37,3 +37,16 @@ Fecha: 12-06-2019.
 - ataques de denegacion de servicios, pueden ser DoS o DDoS
 - ataques de contrasenas
 
+Un caso real: ransomware en un hospital.
+*Vector de ataque:
+- ataque de fuerza bruta a puerto RDP expuesto del servidor
+- Contrasena debil
+*Sistemas Afectados:
+- servidor de virtualizacion
+- maquinas virtualizadas sobre el servidor archivos, vdh.
+- archivos(documentos, bases de datos)
+*Motivacion:
+ Financiera - no dirigido.
+*Tecnicas utilizadas:
+- propagacion mediante carpetas compartidas en la red.
+
