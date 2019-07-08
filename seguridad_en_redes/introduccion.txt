@@ -1,0 +1,27 @@
+Tenemos varios problemas de seguridad en redes, las redes hay que proteger mediante configuraciones especificas que nos ayudan a contrarrestrar ciertas vulnerabilidades.
+Introduccion a conceptos de red:
+-ARP
+-RARP
+-Mode trunk
+-Mode access
+-enrutamiento
+
+Herramientas para explotar vulnerabilidades.
+-Vconfig para crear subinterfaces.
+-yersinia para configurar tu interfaz como realizar ataque DTP y poner en modo trunk para poder ver traficos de las vlans
+
+Clase 08-07-2019
+Ataque DoS mediante yersinia
+- Ataque de inundacion
+- Ataque agotamiento a  DHCP server
+- Envenenamiento de ARP
+
+Herramientas para visualizar trafico
+- DSNIFF
+
+COmando para iniciar yersinia
+$ yersinia -I
+
+Ataque desde nmap con el comando
+$nmap -Sv T http//:192.168.0.1
+
