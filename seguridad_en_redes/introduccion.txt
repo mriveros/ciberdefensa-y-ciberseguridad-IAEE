@@ -25,3 +25,11 @@ $ yersinia -I
 Ataque desde nmap con el comando
 $nmap -Sv T http//:192.168.0.1
 
+Ataque spoofing por ARP
+Un servidor basado en https es interceptado por una maquina del cliente mediante spoofing ARP y crear un via de comunicacion entre el cliente y el servidor, actuando como intermediario entre el cliente y el servidor, donde entre el cliente y el intermediario para sobre http y desde el intermediario entre el servidor pasa sobre https.
+
+- Se puede evitar esto mediante la securizacion de la capa 2 y la implementacion de HSTS en el navegador del usuario.
+
+- En este laboratorio se utiliza una pc con wifi "libre" para poder ser intermediario entre el cliente y el servidor.
+_ El programa para ser intermediario es ssl stream
+- 
