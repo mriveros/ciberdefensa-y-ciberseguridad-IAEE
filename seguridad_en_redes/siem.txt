@@ -1,0 +1,66 @@
+Clases de SIEM- Seguridad en Redes.
+
+SIEM (Security information and event management)
+Actividades comunes:
+- colecta de logs.
+- normalizacion de datos.
+- notificaciones y alertas.
+- deteccion de incidentes.
+- workflow.
+
+Beneficios comunes:
+- visibilidad en tiempo real.
+- eventos de diversas fuentes.
+- correlaciona eventos recolectado de distintos origenes.
+- proporciona distintos tipo de notificaciones, reportes, visializaciones
+
+Razones para utilizar un SIEM
+- Infraestructura heterogenea
+- Diversos puntos de falla
+- Amplia superficie de exposicion
+- Elevada exposicion al riesgo
+- Criticidad del negocio
+- Atendimiento regulatorio
+
+SOX: es una norma para la cotizacion de valores a nivel mundial.
+HIPAA: regulaciones de sistema de salud de estados unidos.
+
+Importancia de un SIEM:
+- Identificacion temprana de un comportamiento anomalo.
+- Permite respuestas ante incidentes.
+- Facilita el soporte para casos forenses.
+- Agiliza la correlacion de eventos.
+- Ayuda con el cumplimiento de normas
+- Permite la definicion de reglas de seguridad del negocio.
+
+Que hay antes y despues de un SIEM
+- origenes
+- fuentes
+- datos
+- colectar
+- consolidar
+- agregar valor, informacion
+- correlacionar
+- interpretar/ analizar
+- notificar
+- reporting
+- ejecucion de acciones
+
+SIEM
+SOC: security operation center.
+CSIRT: equipo de respuesta ante incidentes de seguridad.
+War room: equipo colegiado multidisciplinario donde se deciden acciones cruciales.
+
+Fin del SIEM
+Interpretar los datos de distintas fuentes y origenes, para proceer informacion de valor que ayude a tomar decisiones y acciones tempestivas para brindar soporte al negocio.
+
+Funcionamiento
+1. Taxonomia
+- origen
+- colectar
+- almacenamiento
+- correlacion
+- analisis
+- notificacion
+
+
