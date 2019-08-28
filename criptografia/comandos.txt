@@ -1,0 +1,29 @@
+
+  516  openssl enc -aes-256-cbc -base64 -e -in mensaje.txt -out encriptado
+  517  clear
+  518  cat encriptado
+  519  cat mensaje.txt
+  520  man openss
+  521  man openssl
+  522  openssl  enc -aes-256-cbc -base64 -d -in encriptado -out desencriptado
+  523  ls
+  524  cat desencriptado
+
+
+COMANDOS SEGUNDA PRACTICA
+
+  538  openssl genrsa -out keypair.pem 2048
+  539  clear
+  540  ls
+  541  rm clear
+  542  ls
+  543  openssl genrsa -out keypairA.pem 2048
+  544  rm keypair.pem
+  545  clear
+  546  ls
+  547  openssl rsa -in keypairA.pem -text
+  548  openssl rsa -in keypairA.pem  -pubout -out publicA.pem
+  549  cat publicA.pem
+  550  clear
+  551  ls
+  552  openssl rsa -in keypairA.pem  -des3 -out publicA.pem
