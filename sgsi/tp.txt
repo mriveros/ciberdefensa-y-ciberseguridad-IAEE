@@ -1,0 +1,17 @@
+CLAUSULA 6 --ISO 27002
+6. Organizacion de seguridad de la Informacion.
+6.1. Organizacion interna.
+Objetivo: establecer un marco de trabajo para la administracion para inicializar y controlar la implementacion y operacion de la seguridad de informacion en la organizacion.
+6.1.1. Roles y resposabilidades de la seguridad de informacion.
+
+Control.
+Toda la responsabilidad de la seguridad de informacion deberia ser definida y localizada.
+
+Guia de implementacion.
+La lozalizacion de la seguridad de informacion deberia ser de acuerdo con la politica de seguridad de informacion.
+Responsabilidad para la seguridad de informacion y actividades de administracion de riesgos  y en particular para la aceptacion de riesgos residuales deberian ser definidas.
+Estas responsabilidades deberian ser complementadas, cuando sea necesaria, con mas guia de detalladas para sitios especificos y procesos de informacion.
+
+6.1.1 Segregacion de funciones.
+
+Areas conflictivas deben estar 
